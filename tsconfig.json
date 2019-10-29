@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "declaration": true,
+    "noImplicitAny": true,
+    "target": "es5",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["es6", "dom"],
+    "outDir": "./lib"
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "**/__tests__",
+    "node_modules"
+  ]
+}
